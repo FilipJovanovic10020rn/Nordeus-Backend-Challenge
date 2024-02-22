@@ -1,0 +1,1044 @@
+2024-02-21T15:58:08.474+01:00  INFO 404 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 404 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T15:58:08.482+01:00  INFO 404 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T15:58:08.602+01:00  INFO 404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T15:58:08.602+01:00  INFO 404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T15:58:11.206+01:00  INFO 404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T15:58:11.221+01:00  INFO 404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T15:58:11.222+01:00  INFO 404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T15:58:11.284+01:00  INFO 404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T15:58:11.285+01:00  INFO 404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2679 ms
+2024-02-21T15:58:11.616+01:00  INFO 404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T15:58:11.773+01:00  INFO 404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T15:58:11.810+01:00  INFO 404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T15:58:11.822+01:00  INFO 404 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 4.332 seconds (process running for 6.331)
+2024-02-21T15:58:51.786+01:00  INFO 404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T15:58:51.788+01:00  INFO 404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T15:58:51.788+01:00  INFO 404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21T15:58:51.810+01:00  WARN 404 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-02-21T16:00:00.045+01:00  INFO 16140 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 16140 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T16:00:00.048+01:00  INFO 16140 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T16:00:00.123+01:00  INFO 16140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T16:00:00.123+01:00  INFO 16140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T16:00:01.403+01:00  INFO 16140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T16:00:01.413+01:00  INFO 16140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T16:00:01.414+01:00  INFO 16140 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T16:00:01.473+01:00  INFO 16140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T16:00:01.474+01:00  INFO 16140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1350 ms
+2024-02-21T16:00:01.794+01:00  INFO 16140 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T16:00:01.952+01:00  INFO 16140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T16:00:01.987+01:00  INFO 16140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T16:00:01.998+01:00  INFO 16140 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.581 seconds (process running for 3.838)
+2024-02-21T16:00:06.476+01:00  INFO 16140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T16:00:06.476+01:00  INFO 16140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T16:00:06.477+01:00  INFO 16140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T16:15:45.618+01:00  INFO 13224 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 13224 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T16:15:45.620+01:00  INFO 13224 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T16:15:45.689+01:00  INFO 13224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T16:15:45.689+01:00  INFO 13224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T16:15:46.836+01:00  INFO 13224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T16:15:46.846+01:00  INFO 13224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T16:15:46.846+01:00  INFO 13224 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T16:15:46.899+01:00  INFO 13224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T16:15:46.900+01:00  INFO 13224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1210 ms
+2024-02-21T16:15:47.125+01:00  INFO 13224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T16:15:47.254+01:00  INFO 13224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T16:15:47.283+01:00  INFO 13224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T16:15:47.292+01:00  INFO 13224 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.124 seconds (process running for 2.801)
+2024-02-21T16:15:58.130+01:00  INFO 13224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T16:15:58.130+01:00  INFO 13224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T16:15:58.131+01:00  INFO 13224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T16:16:02.485+01:00 ERROR 13224 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: User Already Exists] with root cause
+
+java.lang.RuntimeException: User Already Exists
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.UserService.register(UserService.java:27) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.UsersController.register(UsersController.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T16:17:59.255+01:00  INFO 18020 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 18020 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T16:17:59.258+01:00  INFO 18020 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T16:17:59.333+01:00  INFO 18020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T16:17:59.333+01:00  INFO 18020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T16:18:00.430+01:00  INFO 18020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T16:18:00.440+01:00  INFO 18020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T16:18:00.440+01:00  INFO 18020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T16:18:00.491+01:00  INFO 18020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T16:18:00.492+01:00  INFO 18020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1158 ms
+2024-02-21T16:18:00.783+01:00  INFO 18020 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T16:18:00.922+01:00  INFO 18020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T16:18:00.956+01:00  INFO 18020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T16:18:00.964+01:00  INFO 18020 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.24 seconds (process running for 2.989)
+2024-02-21T16:18:17.991+01:00  INFO 18020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T16:18:17.991+01:00  INFO 18020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T16:18:17.992+01:00  INFO 18020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T16:18:26.730+01:00 ERROR 18020 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Wrong credentials] with root cause
+
+java.lang.RuntimeException: Wrong credentials
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.UserService.login(UserService.java:41) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.UsersController.login(UsersController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T16:18:30.320+01:00 ERROR 18020 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Wrong credentials] with root cause
+
+java.lang.RuntimeException: Wrong credentials
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.UserService.login(UserService.java:41) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.UsersController.login(UsersController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T16:19:23.340+01:00  INFO 18020 --- [http-nio-8080-exec-9] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on session: 5b9b78d8-3851-8977-2f08-79afcf307e69
+2024-02-21T16:21:33.403+01:00  INFO 18020 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 5b9b78d8-3851-8977-2f08-79afcf307e69 with status: 1001
+2024-02-21T16:21:38.730+01:00  INFO 14704 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 14704 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T16:21:38.732+01:00  INFO 14704 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T16:21:38.789+01:00  INFO 14704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T16:21:38.789+01:00  INFO 14704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T16:21:39.732+01:00  INFO 14704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T16:21:39.741+01:00  INFO 14704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T16:21:39.741+01:00  INFO 14704 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T16:21:39.788+01:00  INFO 14704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T16:21:39.789+01:00  INFO 14704 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 999 ms
+2024-02-21T16:21:40.017+01:00  INFO 14704 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T16:21:40.133+01:00  INFO 14704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T16:21:40.161+01:00  INFO 14704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T16:21:40.171+01:00  INFO 14704 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.85 seconds (process running for 2.525)
+2024-02-21T16:21:47.931+01:00  INFO 14704 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T16:21:47.932+01:00  INFO 14704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T16:21:47.933+01:00  INFO 14704 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T16:21:55.198+01:00  INFO 14704 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on session: 56b5e38f-4fd7-2ccb-acbe-b9c081c38455
+2024-02-21T17:30:20.098+01:00  INFO 14704 --- [http-nio-8080-exec-5] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 56b5e38f-4fd7-2ccb-acbe-b9c081c38455 with status: 1000
+2024-02-21T17:31:00.088+01:00  INFO 1984 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 1984 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T17:31:00.091+01:00  INFO 1984 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T17:31:00.157+01:00  INFO 1984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T17:31:00.158+01:00  INFO 1984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T17:31:01.111+01:00  INFO 1984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T17:31:01.123+01:00  INFO 1984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T17:31:01.124+01:00  INFO 1984 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T17:31:01.173+01:00  INFO 1984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T17:31:01.173+01:00  INFO 1984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1015 ms
+2024-02-21T17:31:01.410+01:00  INFO 1984 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T17:31:01.531+01:00  INFO 1984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T17:31:01.558+01:00  INFO 1984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T17:31:01.566+01:00  INFO 1984 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.963 seconds (process running for 2.804)
+2024-02-21T17:31:31.468+01:00  INFO 1984 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T17:31:31.469+01:00  INFO 1984 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T17:31:31.470+01:00  INFO 1984 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T17:31:38.309+01:00  INFO 1984 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 4eaad9f9-3f6c-fdac-0831-a8d1e4f78050
+2024-02-21T17:31:38.312+01:00 ERROR 1984 --- [http-nio-8080-exec-3] w.s.h.ExceptionWebSocketHandlerDecorator : Closing session due to exception for StandardWebSocketSession[id=4eaad9f9-3f6c-fdac-0831-a8d1e4f78050, uri=ws://localhost:8080/tutorial?userId=user1708533091552]
+
+java.lang.RuntimeException: No such user
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.sockets.MyWebSocketHandler.afterConnectionEstablished(MyWebSocketHandler.java:34) ~[classes/:na]
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.afterConnectionEstablished(WebSocketHandlerDecorator.java:70) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.afterConnectionEstablished(LoggingWebSocketHandlerDecorator.java:48) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.afterConnectionEstablished(ExceptionWebSocketHandlerDecorator.java:48) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onOpen(StandardWebSocketHandlerAdapter.java:103) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:938) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T17:31:38.323+01:00  INFO 1984 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 4eaad9f9-3f6c-fdac-0831-a8d1e4f78050 with status: 1011
+2024-02-21T17:31:54.214+01:00 ERROR 1984 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: User Already Exists] with root cause
+
+java.lang.RuntimeException: User Already Exists
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.UserService.register(UserService.java:24) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.UsersController.register(UsersController.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T17:32:01.767+01:00  INFO 1984 --- [http-nio-8080-exec-7] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: ded8afd9-ce70-2d17-d64d-b4017884d61b
+2024-02-21T17:32:01.767+01:00 ERROR 1984 --- [http-nio-8080-exec-7] w.s.h.ExceptionWebSocketHandlerDecorator : Closing session due to exception for StandardWebSocketSession[id=ded8afd9-ce70-2d17-d64d-b4017884d61b, uri=ws://localhost:8080/tutorial?userId=user1708533091552]
+
+java.lang.RuntimeException: No such user
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.sockets.MyWebSocketHandler.afterConnectionEstablished(MyWebSocketHandler.java:34) ~[classes/:na]
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.afterConnectionEstablished(WebSocketHandlerDecorator.java:70) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.afterConnectionEstablished(LoggingWebSocketHandlerDecorator.java:48) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.afterConnectionEstablished(ExceptionWebSocketHandlerDecorator.java:48) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onOpen(StandardWebSocketHandlerAdapter.java:103) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:938) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T17:32:01.767+01:00  INFO 1984 --- [http-nio-8080-exec-7] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: ded8afd9-ce70-2d17-d64d-b4017884d61b with status: 1011
+2024-02-21T17:32:59.930+01:00  INFO 6744 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 6744 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T17:32:59.933+01:00  INFO 6744 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T17:32:59.996+01:00  INFO 6744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T17:32:59.996+01:00  INFO 6744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T17:33:00.973+01:00  INFO 6744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T17:33:00.987+01:00  INFO 6744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T17:33:00.987+01:00  INFO 6744 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T17:33:01.035+01:00  INFO 6744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T17:33:01.035+01:00  INFO 6744 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1038 ms
+2024-02-21T17:33:01.283+01:00  INFO 6744 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T17:33:01.402+01:00  INFO 6744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T17:33:01.431+01:00  INFO 6744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T17:33:01.440+01:00  INFO 6744 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.955 seconds (process running for 2.627)
+2024-02-21T17:33:09.662+01:00  INFO 6744 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T17:33:09.662+01:00  INFO 6744 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T17:33:09.663+01:00  INFO 6744 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21T17:33:17.309+01:00  INFO 6744 --- [http-nio-8080-exec-7] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 5a4349c8-285c-a817-488a-c925bace4397 with userId user1708533189762
+2024-02-21T17:33:17.312+01:00 ERROR 6744 --- [http-nio-8080-exec-7] w.s.h.ExceptionWebSocketHandlerDecorator : Closing session due to exception for StandardWebSocketSession[id=5a4349c8-285c-a817-488a-c925bace4397, uri=ws://localhost:8080/tutorial?userId=user1708533189762]
+
+java.lang.RuntimeException: No such user
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.sockets.MyWebSocketHandler.afterConnectionEstablished(MyWebSocketHandler.java:34) ~[classes/:na]
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.afterConnectionEstablished(WebSocketHandlerDecorator.java:70) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.afterConnectionEstablished(LoggingWebSocketHandlerDecorator.java:48) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.afterConnectionEstablished(ExceptionWebSocketHandlerDecorator.java:48) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onOpen(StandardWebSocketHandlerAdapter.java:103) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:938) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T17:33:17.320+01:00  INFO 6744 --- [http-nio-8080-exec-7] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 5a4349c8-285c-a817-488a-c925bace4397 with status: 1011
+2024-02-21T17:33:55.993+01:00  INFO 4084 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 4084 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T17:33:55.995+01:00  INFO 4084 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T17:33:56.058+01:00  INFO 4084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T17:33:56.058+01:00  INFO 4084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T17:33:57.037+01:00  INFO 4084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T17:33:57.047+01:00  INFO 4084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T17:33:57.047+01:00  INFO 4084 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T17:33:57.096+01:00  INFO 4084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T17:33:57.096+01:00  INFO 4084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1037 ms
+2024-02-21T17:33:57.331+01:00  INFO 4084 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T17:33:57.450+01:00  INFO 4084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T17:33:57.478+01:00  INFO 4084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T17:33:57.487+01:00  INFO 4084 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.941 seconds (process running for 2.746)
+2024-02-21T17:34:02.125+01:00  INFO 4084 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T17:34:02.125+01:00  INFO 4084 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T17:34:02.126+01:00  INFO 4084 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T17:34:05.517+01:00  INFO 4084 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: f38c2be4-59bf-6267-1c5f-7aca98c89ae9 with userId user1708533242218
+2024-02-21T17:34:14.483+01:00  INFO 4084 --- [http-nio-8080-exec-8] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: f38c2be4-59bf-6267-1c5f-7aca98c89ae9 with status: 1000
+2024-02-21T17:34:58.254+01:00  INFO 20324 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 20324 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T17:34:58.256+01:00  INFO 20324 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T17:34:58.323+01:00  INFO 20324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T17:34:58.323+01:00  INFO 20324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T17:34:59.261+01:00  INFO 20324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T17:34:59.272+01:00  INFO 20324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T17:34:59.272+01:00  INFO 20324 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T17:34:59.322+01:00  INFO 20324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T17:34:59.323+01:00  INFO 20324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 999 ms
+2024-02-21T17:34:59.551+01:00  INFO 20324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-02-21T17:34:59.672+01:00  INFO 20324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T17:34:59.701+01:00  INFO 20324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T17:34:59.710+01:00  INFO 20324 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.901 seconds (process running for 2.668)
+2024-02-21T17:35:04.833+01:00  INFO 20324 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T17:35:04.833+01:00  INFO 20324 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T17:35:04.834+01:00  INFO 20324 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21T17:35:08.753+01:00  INFO 20324 --- [http-nio-8080-exec-4] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 6dfaf334-babd-5b7f-8f02-bcd45afffbf1 with userId user1708533304923
+2024-02-21T17:35:10.348+01:00  INFO 20324 --- [http-nio-8080-exec-6] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 6dfaf334-babd-5b7f-8f02-bcd45afffbf1 with status: 1000
+2024-02-21T17:35:19.343+01:00  INFO 20324 --- [http-nio-8080-exec-5] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 4d4fe1a2-18b0-39f6-9939-b4490d8e1646 with userId user1708533304923
+2024-02-21T17:35:21.530+01:00  INFO 20324 --- [http-nio-8080-exec-2] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 4d4fe1a2-18b0-39f6-9939-b4490d8e1646 with status: 1000
+2024-02-21T17:36:02.228+01:00 ERROR 20324 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: User Already Exists] with root cause
+
+java.lang.RuntimeException: User Already Exists
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.UserService.register(UserService.java:24) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.UsersController.register(UsersController.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T17:41:27.415+01:00  INFO 20324 --- [http-nio-8080-exec-1] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 8c24f8dc-f13d-b755-51a7-1a30e3a2ba15 with userId user1708533304923
+2024-02-21T17:42:03.689+01:00  INFO 20324 --- [http-nio-8080-exec-6] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: cbd332a2-67da-8685-6ad2-9386d150a05e with userId user11708533716803
+2024-02-21T17:42:28.324+01:00  INFO 20324 --- [http-nio-8080-exec-2] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 8c24f8dc-f13d-b755-51a7-1a30e3a2ba15 with status: 1000
+2024-02-21T17:42:32.893+01:00  INFO 20324 --- [http-nio-8080-exec-8] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: cbd332a2-67da-8685-6ad2-9386d150a05e with status: 1000
+2024-02-21T19:28:01.868+01:00  INFO 15528 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 15528 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:28:01.876+01:00  INFO 15528 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:28:01.935+01:00  INFO 15528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:28:01.935+01:00  INFO 15528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:28:02.912+01:00  INFO 15528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:28:02.922+01:00  INFO 15528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:28:02.922+01:00  INFO 15528 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:28:02.968+01:00  INFO 15528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:28:02.968+01:00  INFO 15528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1032 ms
+2024-02-21T19:28:03.338+01:00  INFO 15528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:28:03.367+01:00  INFO 15528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:28:03.376+01:00  INFO 15528 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.95 seconds (process running for 2.639)
+2024-02-21T19:28:21.977+01:00  INFO 15528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:28:21.977+01:00  INFO 15528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:28:21.978+01:00  INFO 15528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:28:43.166+01:00  INFO 15528 --- [http-nio-8080-exec-4] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 31112a14-eef7-7441-f106-c2985b54e881 with userId: user1708540102079
+2024-02-21T19:28:46.006+01:00  INFO 15528 --- [http-nio-8080-exec-6] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 48d6330c-9f5a-5382-480f-9a4cccd8d509 with userId: users1708540111117
+2024-02-21T19:29:45.214+01:00  WARN 15528 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-02-21T19:29:53.514+01:00  WARN 15528 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.nordeus.jobfair.auctionservice.auctionservice.domain.model.AuctionId'; Cannot convert value of type 'java.lang.String' to required type 'com.nordeus.jobfair.auctionservice.auctionservice.domain.model.AuctionId': no matching editors or conversion strategy found]
+2024-02-21T19:30:28.977+01:00  INFO 15528 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 31112a14-eef7-7441-f106-c2985b54e881 with status: 1001
+2024-02-21T19:30:28.977+01:00  INFO 15528 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 48d6330c-9f5a-5382-480f-9a4cccd8d509 with status: 1001
+2024-02-21T19:31:27.871+01:00  INFO 9196 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 9196 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:31:27.874+01:00  INFO 9196 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:31:27.942+01:00  INFO 9196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:31:27.942+01:00  INFO 9196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:31:28.944+01:00  INFO 9196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:31:28.952+01:00  INFO 9196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:31:28.952+01:00  INFO 9196 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:31:29.004+01:00  INFO 9196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:31:29.005+01:00  INFO 9196 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1062 ms
+2024-02-21T19:31:29.355+01:00  INFO 9196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:31:29.387+01:00  INFO 9196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:31:29.395+01:00  INFO 9196 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.052 seconds (process running for 2.852)
+2024-02-21T19:31:31.385+01:00  INFO 9196 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:31:31.386+01:00  INFO 9196 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:31:31.387+01:00  INFO 9196 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:31:48.823+01:00  INFO 9196 --- [http-nio-8080-exec-4] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: f065d500-82de-365b-0068-a5012cc5f8c3 with userId: users1708540291493
+2024-02-21T19:31:54.786+01:00 ERROR 9196 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: No such auction] with root cause
+
+java.lang.RuntimeException: No such auction
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.impl.AuctionServiceImpl.joinAuction(AuctionServiceImpl.java:80) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.HttpController.joinAuction(HttpController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:888) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T19:33:40.517+01:00  INFO 9196 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: f065d500-82de-365b-0068-a5012cc5f8c3 with status: 1001
+2024-02-21T19:33:47.820+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 396 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:33:47.822+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:33:47.892+01:00  INFO 396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:33:47.892+01:00  INFO 396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:33:49.002+01:00  INFO 396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:33:49.012+01:00  INFO 396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:33:49.012+01:00  INFO 396 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:33:49.074+01:00  INFO 396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:33:49.074+01:00  INFO 396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1180 ms
+2024-02-21T19:33:49.455+01:00  INFO 396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:33:49.484+01:00  INFO 396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:33:49.492+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.189 seconds (process running for 3.121)
+2024-02-21T19:33:51.321+01:00  INFO 396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:33:51.321+01:00  INFO 396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:33:51.322+01:00  INFO 396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:33:55.578+01:00  INFO 396 --- [http-nio-8080-exec-5] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 5629f095-5edb-7594-cca2-801ddd4b1c67 with userId: users1708540431416
+2024-02-21T19:34:50.127+01:00  INFO 396 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 5629f095-5edb-7594-cca2-801ddd4b1c67 with status: 1001
+2024-02-21T19:34:55.471+01:00  INFO 2040 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 2040 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:34:55.473+01:00  INFO 2040 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:34:55.540+01:00  INFO 2040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:34:55.542+01:00  INFO 2040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:34:56.869+01:00  INFO 2040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:34:56.877+01:00  INFO 2040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:34:56.877+01:00  INFO 2040 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:34:56.924+01:00  INFO 2040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:34:56.925+01:00  INFO 2040 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1382 ms
+2024-02-21T19:34:57.308+01:00  INFO 2040 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:34:57.340+01:00  INFO 2040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:34:57.351+01:00  INFO 2040 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.388 seconds (process running for 3.159)
+2024-02-21T19:35:09.408+01:00  INFO 2040 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:35:09.408+01:00  INFO 2040 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:35:09.410+01:00  INFO 2040 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:35:13.165+01:00  INFO 2040 --- [http-nio-8080-exec-5] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 6d8400fc-14aa-20bb-2613-995796ea1c3e with userId: user1708540509511
+2024-02-21T19:35:17.685+01:00 ERROR 2040 --- [http-nio-8080-exec-4] w.s.h.ExceptionWebSocketHandlerDecorator : Closing session due to exception for StandardWebSocketSession[id=7abc2ffa-b554-fbc9-efa7-1e9f26c12fa9, uri=ws://localhost:8080/tutorial?userId=users1708540111117]
+
+java.lang.RuntimeException: No such user
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.sockets.MyWebSocketHandler.afterConnectionEstablished(MyWebSocketHandler.java:35) ~[classes/:na]
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.afterConnectionEstablished(WebSocketHandlerDecorator.java:70) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.afterConnectionEstablished(LoggingWebSocketHandlerDecorator.java:48) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.afterConnectionEstablished(ExceptionWebSocketHandlerDecorator.java:48) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onOpen(StandardWebSocketHandlerAdapter.java:103) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:938) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T19:35:17.694+01:00  INFO 2040 --- [http-nio-8080-exec-4] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 7abc2ffa-b554-fbc9-efa7-1e9f26c12fa9 with status: 1011
+2024-02-21T19:35:17.694+01:00  WARN 2040 --- [http-nio-8080-exec-4] w.s.h.ExceptionWebSocketHandlerDecorator : Unhandled exception after connection closed for ExceptionWebSocketHandlerDecorator [delegate=LoggingWebSocketHandlerDecorator [delegate=com.nordeus.jobfair.auctionservice.auctionservice.domain.sockets.MyWebSocketHandler@4c326ad7]]
+
+java.lang.RuntimeException: Error while removing from list
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.sockets.MyWebSocketHandler.afterConnectionClosed(MyWebSocketHandler.java:73) ~[classes/:na]
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.afterConnectionClosed(WebSocketHandlerDecorator.java:85) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.afterConnectionClosed(LoggingWebSocketHandlerDecorator.java:72) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.afterConnectionClosed(ExceptionWebSocketHandlerDecorator.java:78) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onClose(StandardWebSocketHandlerAdapter.java:144) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.apache.tomcat.websocket.WsSession.fireEndpointOnClose(WsSession.java:662) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.WsSession.doClose(WsSession.java:588) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.WsSession.doClose(WsSession.java:554) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.WsSession.close(WsSession.java:542) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketSession.closeInternal(StandardWebSocketSession.java:235) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.adapter.AbstractWebSocketSession.close(AbstractWebSocketSession.java:144) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.tryCloseWithError(ExceptionWebSocketHandlerDecorator.java:94) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator.afterConnectionEstablished(ExceptionWebSocketHandlerDecorator.java:51) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onOpen(StandardWebSocketHandlerAdapter.java:103) ~[spring-websocket-6.0.13.jar:6.0.13]
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:938) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T19:37:02.037+01:00  INFO 2040 --- [http-nio-8080-exec-1] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 0db94b19-3dd8-64ca-0576-d2cc52141cef with userId: user11708540612736
+2024-02-21T19:38:15.824+01:00  WARN 2040 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'com.nordeus.jobfair.auctionservice.auctionservice.domain.model.AuctionId'; Cannot convert value of type 'java.lang.String' to required type 'com.nordeus.jobfair.auctionservice.auctionservice.domain.model.AuctionId': no matching editors or conversion strategy found]
+2024-02-21T19:38:28.670+01:00  INFO 2040 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 6d8400fc-14aa-20bb-2613-995796ea1c3e with status: 1001
+2024-02-21T19:38:28.671+01:00  INFO 2040 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 0db94b19-3dd8-64ca-0576-d2cc52141cef with status: 1001
+2024-02-21T19:38:34.677+01:00  INFO 9596 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 9596 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:38:34.679+01:00  INFO 9596 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:38:34.740+01:00  INFO 9596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:38:34.741+01:00  INFO 9596 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:38:35.747+01:00  INFO 9596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:38:35.756+01:00  INFO 9596 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:38:35.756+01:00  INFO 9596 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:38:35.804+01:00  INFO 9596 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:38:35.805+01:00  INFO 9596 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1064 ms
+2024-02-21T19:38:36.174+01:00  INFO 9596 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:38:36.203+01:00  INFO 9596 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:38:36.211+01:00  INFO 9596 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.028 seconds (process running for 2.74)
+2024-02-21T19:38:50.454+01:00  INFO 9596 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:38:50.454+01:00  INFO 9596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:38:50.455+01:00  INFO 9596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:38:56.674+01:00  INFO 9596 --- [http-nio-8080-exec-5] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 6ee13b8e-668c-ba7a-6182-e3dd3d366032 with userId: user11708540730537
+2024-02-21T19:39:06.161+01:00  INFO 9596 --- [http-nio-8080-exec-8] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: a66b17b6-9514-4d28-9ce4-bb81b99f303b with userId: user1708540741804
+2024-02-21T19:45:02.138+01:00  INFO 9596 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 6ee13b8e-668c-ba7a-6182-e3dd3d366032 with status: 1001
+2024-02-21T19:45:02.138+01:00  INFO 9596 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: a66b17b6-9514-4d28-9ce4-bb81b99f303b with status: 1001
+2024-02-21T19:45:08.398+01:00  INFO 13576 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 13576 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:45:08.401+01:00  INFO 13576 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:45:08.489+01:00  INFO 13576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:45:08.489+01:00  INFO 13576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:45:09.689+01:00  INFO 13576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:45:09.698+01:00  INFO 13576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:45:09.699+01:00  INFO 13576 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:45:09.750+01:00  INFO 13576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:45:09.750+01:00  INFO 13576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
+2024-02-21T19:45:10.123+01:00  INFO 13576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:45:10.153+01:00  INFO 13576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:45:10.161+01:00  INFO 13576 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.282 seconds (process running for 2.986)
+2024-02-21T19:45:19.910+01:00  INFO 13576 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:45:19.910+01:00  INFO 13576 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:45:19.911+01:00  INFO 13576 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:45:34.748+01:00  INFO 13576 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 33ee5671-9f4b-a872-c66f-7daac0838f14 with userId: user1708541119992
+2024-02-21T19:46:02.558+01:00  INFO 13576 --- [http-nio-8080-exec-8] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: df5761a1-3c12-4c58-f59d-f87e608ac90f with userId: userA1708541155757
+2024-02-21T19:46:54.391+01:00 ERROR 13576 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: User Already Exists] with root cause
+
+java.lang.RuntimeException: User Already Exists
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.UserService.register(UserService.java:24) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.UsersController.register(UsersController.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T19:47:02.571+01:00 ERROR 13576 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: User doesnt exist] with root cause
+
+java.lang.RuntimeException: User doesnt exist
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.impl.AuctionServiceImpl.bid(AuctionServiceImpl.java:87) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.HttpController.bid(HttpController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:888) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T19:47:35.425+01:00  INFO 13576 --- [http-nio-8080-exec-8] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: de109abb-8648-68b5-d10e-8e71c233a3b2 with userId: userB1708541217028
+2024-02-21T19:48:08.206+01:00  INFO 13576 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: de109abb-8648-68b5-d10e-8e71c233a3b2 with status: 1001
+2024-02-21T19:48:08.206+01:00  INFO 13576 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 33ee5671-9f4b-a872-c66f-7daac0838f14 with status: 1001
+2024-02-21T19:48:08.206+01:00  INFO 13576 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: df5761a1-3c12-4c58-f59d-f87e608ac90f with status: 1001
+2024-02-21T19:48:13.445+01:00  INFO 11436 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 11436 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:48:13.448+01:00  INFO 11436 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:48:13.520+01:00  INFO 11436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:48:13.520+01:00  INFO 11436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:48:14.475+01:00  INFO 11436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:48:14.484+01:00  INFO 11436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:48:14.484+01:00  INFO 11436 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:48:14.535+01:00  INFO 11436 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:48:14.535+01:00  INFO 11436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1014 ms
+2024-02-21T19:48:14.894+01:00  INFO 11436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:48:14.927+01:00  INFO 11436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:48:14.939+01:00  INFO 11436 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.96 seconds (process running for 2.665)
+2024-02-21T19:49:44.799+01:00  INFO 11436 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:49:44.799+01:00  INFO 11436 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:49:44.801+01:00  INFO 11436 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-02-21T19:49:50.816+01:00  INFO 11436 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: b68fdd6a-164f-50e8-49fe-ad9a34f9f172 with userId: userB1708541384897
+2024-02-21T19:50:58.784+01:00  INFO 11436 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: b68fdd6a-164f-50e8-49fe-ad9a34f9f172 with status: 1001
+2024-02-21T19:51:05.104+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 396 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:51:05.107+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:51:05.171+01:00  INFO 396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:51:05.171+01:00  INFO 396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:51:06.268+01:00  INFO 396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:51:06.327+01:00  INFO 396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1156 ms
+2024-02-21T19:51:06.685+01:00  INFO 396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:51:06.714+01:00  INFO 396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:51:06.726+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.132 seconds (process running for 3.351)
+2024-02-21T19:51:11.986+01:00  INFO 4308 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 4308 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:51:11.989+01:00  INFO 4308 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:51:12.054+01:00  INFO 4308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:51:12.054+01:00  INFO 4308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:51:13.058+01:00  INFO 4308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:51:13.069+01:00  INFO 4308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:51:13.069+01:00  INFO 4308 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:51:13.124+01:00  INFO 4308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:51:13.125+01:00  INFO 4308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2024-02-21T19:51:13.511+01:00  INFO 4308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:51:13.544+01:00  INFO 4308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:51:13.552+01:00  INFO 4308 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.151 seconds (process running for 2.917)
+2024-02-21T19:51:15.887+01:00  INFO 4308 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:51:15.888+01:00  INFO 4308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:51:15.889+01:00  INFO 4308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:51:51.769+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 396 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:51:51.772+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:51:51.838+01:00  INFO 396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:51:51.839+01:00  INFO 396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:51:52.896+01:00  INFO 396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:51:52.906+01:00  INFO 396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:51:52.906+01:00  INFO 396 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:51:52.957+01:00  INFO 396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:51:52.958+01:00  INFO 396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1118 ms
+2024-02-21T19:51:53.320+01:00  INFO 396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:51:53.348+01:00  INFO 396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:51:53.357+01:00  INFO 396 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.042 seconds (process running for 2.71)
+2024-02-21T19:51:55.828+01:00  INFO 396 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:51:55.828+01:00  INFO 396 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:51:55.829+01:00  INFO 396 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:52:14.646+01:00  INFO 11460 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 11460 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:52:14.657+01:00  INFO 11460 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:52:14.731+01:00  INFO 11460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:52:14.731+01:00  INFO 11460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:52:15.809+01:00  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:52:15.817+01:00  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:52:15.818+01:00  INFO 11460 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:52:15.869+01:00  INFO 11460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:52:15.869+01:00  INFO 11460 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1137 ms
+2024-02-21T19:52:16.252+01:00  INFO 11460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:52:16.282+01:00  INFO 11460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:52:16.291+01:00  INFO 11460 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.144 seconds (process running for 2.837)
+2024-02-21T19:52:21.121+01:00  INFO 11460 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:52:21.121+01:00  INFO 11460 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:52:21.122+01:00  INFO 11460 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:52:43.272+01:00  INFO 16120 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 16120 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:52:43.276+01:00  INFO 16120 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:52:43.357+01:00  INFO 16120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:52:43.358+01:00  INFO 16120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:52:44.440+01:00  INFO 16120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:52:44.450+01:00  INFO 16120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:52:44.450+01:00  INFO 16120 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:52:44.503+01:00  INFO 16120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:52:44.504+01:00  INFO 16120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2024-02-21T19:52:44.859+01:00  INFO 16120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:52:44.894+01:00  INFO 16120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:52:44.903+01:00  INFO 16120 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.077 seconds (process running for 2.748)
+2024-02-21T19:52:51.612+01:00  INFO 16120 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:52:51.612+01:00  INFO 16120 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:52:51.613+01:00  INFO 16120 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T19:53:55.627+01:00  INFO 16024 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 16024 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:53:55.634+01:00  INFO 16024 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:53:55.692+01:00  INFO 16024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:53:55.692+01:00  INFO 16024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:53:56.673+01:00  INFO 16024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:53:56.681+01:00  INFO 16024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:53:56.682+01:00  INFO 16024 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:53:56.735+01:00  INFO 16024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:53:56.735+01:00  INFO 16024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1042 ms
+2024-02-21T19:53:57.147+01:00  INFO 16024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:53:57.187+01:00  INFO 16024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:53:57.199+01:00  INFO 16024 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.025 seconds (process running for 2.731)
+2024-02-21T19:54:01.872+01:00  INFO 16024 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:54:01.873+01:00  INFO 16024 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:54:01.874+01:00  INFO 16024 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21T19:54:08.562+01:00  INFO 16024 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: f0fdd44b-2d54-ebb8-bdba-8bd45c74a236 with userId: userB1708541641964
+2024-02-21T19:55:12.228+01:00  INFO 16024 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: f0fdd44b-2d54-ebb8-bdba-8bd45c74a236 with status: 1001
+2024-02-21T19:55:17.043+01:00  INFO 256 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 256 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:55:17.046+01:00  INFO 256 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:55:17.114+01:00  INFO 256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:55:17.115+01:00  INFO 256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:55:18.084+01:00  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:55:18.094+01:00  INFO 256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:55:18.094+01:00  INFO 256 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:55:18.149+01:00  INFO 256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:55:18.150+01:00  INFO 256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2024-02-21T19:55:18.510+01:00  INFO 256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:55:18.538+01:00  INFO 256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:55:18.546+01:00  INFO 256 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.942 seconds (process running for 2.608)
+2024-02-21T19:55:25.928+01:00  INFO 256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:55:25.929+01:00  INFO 256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:55:25.929+01:00  INFO 256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21T19:55:30.183+01:00  INFO 256 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: fc7f02c5-0f22-5729-792d-17991dc71ef1 with userId: userB1708541726023
+2024-02-21T19:55:37.255+01:00  INFO 256 --- [http-nio-8080-exec-9] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: d3252768-bf32-5670-260f-e977c67ec9eb with userId: userA1708541733592
+2024-02-21T19:55:44.589+01:00  INFO 256 --- [http-nio-8080-exec-7] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 59a83b40-8e32-acce-ca1e-4dffa1889cdb with userId: user1708541740862
+2024-02-21T19:56:25.612+01:00  INFO 256 --- [http-nio-8080-exec-2] c.n.j.a.a.d.s.AuctionNotifierLogger      : Bid placed: com.nordeus.jobfair.auctionservice.auctionservice.domain.model.Bid@3b599e1e
+2024-02-21T19:59:28.653+01:00  INFO 256 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: fc7f02c5-0f22-5729-792d-17991dc71ef1 with status: 1001
+2024-02-21T19:59:28.654+01:00  INFO 256 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 59a83b40-8e32-acce-ca1e-4dffa1889cdb with status: 1001
+2024-02-21T19:59:28.654+01:00  INFO 256 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: d3252768-bf32-5670-260f-e977c67ec9eb with status: 1001
+2024-02-21T19:59:33.571+01:00  INFO 12680 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 12680 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T19:59:33.573+01:00  INFO 12680 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T19:59:33.645+01:00  INFO 12680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T19:59:33.645+01:00  INFO 12680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T19:59:34.638+01:00  INFO 12680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T19:59:34.652+01:00  INFO 12680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T19:59:34.652+01:00  INFO 12680 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T19:59:34.699+01:00  INFO 12680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T19:59:34.700+01:00  INFO 12680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1054 ms
+2024-02-21T19:59:35.116+01:00  INFO 12680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T19:59:35.143+01:00  INFO 12680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T19:59:35.152+01:00  INFO 12680 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.003 seconds (process running for 2.674)
+2024-02-21T19:59:42.525+01:00  INFO 12680 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T19:59:42.525+01:00  INFO 12680 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T19:59:42.526+01:00  INFO 12680 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-21T19:59:46.497+01:00  INFO 12680 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: f56c1c8c-1079-a82f-ef9e-07d2558b4da5 with userId: user1708541982626
+2024-02-21T19:59:56.484+01:00  INFO 12680 --- [http-nio-8080-exec-5] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 0a5c4ab5-5fa5-40b7-61dd-6d3f5606a76f with userId: ab1708541992284
+2024-02-21T20:00:03.653+01:00  INFO 12680 --- [http-nio-8080-exec-7] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 7b13c3db-1ce5-5757-fec6-843fa5bebd5a with userId: cd1708541999973
+2024-02-21T20:00:39.008+01:00  INFO 12680 --- [http-nio-8080-exec-3] c.n.j.a.a.d.s.AuctionNotifierLogger      : Bid placed: com.nordeus.jobfair.auctionservice.auctionservice.domain.model.Bid@4d57c71a
+2024-02-21T20:00:51.307+01:00  INFO 12680 --- [http-nio-8080-exec-4] c.n.j.a.a.d.s.AuctionNotifierLogger      : Bid placed: com.nordeus.jobfair.auctionservice.auctionservice.domain.model.Bid@635140a1
+2024-02-21T20:40:24.338+01:00  INFO 12680 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: f56c1c8c-1079-a82f-ef9e-07d2558b4da5 with status: 1001
+2024-02-21T20:40:24.339+01:00  INFO 12680 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 0a5c4ab5-5fa5-40b7-61dd-6d3f5606a76f with status: 1001
+2024-02-21T20:40:24.339+01:00  INFO 12680 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 7b13c3db-1ce5-5757-fec6-843fa5bebd5a with status: 1001
+2024-02-21T20:40:30.121+01:00  INFO 12932 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 12932 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T20:40:30.124+01:00  INFO 12932 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T20:40:30.182+01:00  INFO 12932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T20:40:30.183+01:00  INFO 12932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T20:40:31.312+01:00  INFO 12932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T20:40:31.322+01:00  INFO 12932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T20:40:31.322+01:00  INFO 12932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T20:40:31.371+01:00  INFO 12932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T20:40:31.372+01:00  INFO 12932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2024-02-21T20:40:31.752+01:00  INFO 12932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T20:40:31.787+01:00  INFO 12932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T20:40:31.800+01:00  INFO 12932 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 2.139 seconds (process running for 2.901)
+2024-02-21T20:40:32.604+01:00  INFO 12932 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T20:40:32.604+01:00  INFO 12932 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T20:40:32.605+01:00  INFO 12932 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T20:40:36.376+01:00  INFO 12932 --- [http-nio-8080-exec-3] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: d02965ba-a607-e4a8-206b-0b8d4b6eae65 with userId: cd1708544432699
+2024-02-21T20:40:42.826+01:00  INFO 12932 --- [http-nio-8080-exec-5] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 66565035-3884-29b2-8e22-0d8b332cb921 with userId: cdcs1708544439733
+2024-02-21T20:41:06.454+01:00  INFO 12932 --- [http-nio-8080-exec-9] c.n.j.a.a.d.s.AuctionNotifierLogger      : Bid placed: com.nordeus.jobfair.auctionservice.auctionservice.domain.model.Bid@6d7efcc0
+2024-02-21T20:41:11.964+01:00  INFO 12932 --- [http-nio-8080-exec-10] c.n.j.a.a.d.s.AuctionNotifierLogger      : Bid placed: com.nordeus.jobfair.auctionservice.auctionservice.domain.model.Bid@60c888f6
+2024-02-21T20:41:27.600+01:00  INFO 12932 --- [http-nio-8080-exec-2] c.n.j.a.a.d.s.AuctionNotifierLogger      : Bid placed: com.nordeus.jobfair.auctionservice.auctionservice.domain.model.Bid@63350cc7
+2024-02-21T20:43:08.130+01:00  INFO 12932 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 66565035-3884-29b2-8e22-0d8b332cb921 with status: 1001
+2024-02-21T20:43:08.130+01:00  INFO 12932 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: d02965ba-a607-e4a8-206b-0b8d4b6eae65 with status: 1001
+2024-02-21T20:43:29.771+01:00  INFO 3592 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Starting AuctionServiceApplication using Java 19.0.2 with PID 3592 (C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge\target\classes started by Filip in C:\Users\Filip\Desktop\NordeusChallange\jobfair23-backend-challenge)
+2024-02-21T20:43:29.773+01:00  INFO 3592 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T20:43:29.834+01:00  INFO 3592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-21T20:43:29.834+01:00  INFO 3592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-21T20:43:30.799+01:00  INFO 3592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-21T20:43:30.808+01:00  INFO 3592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-21T20:43:30.808+01:00  INFO 3592 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-21T20:43:30.856+01:00  INFO 3592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-21T20:43:30.857+01:00  INFO 3592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1021 ms
+2024-02-21T20:43:31.217+01:00  INFO 3592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-21T20:43:31.258+01:00  INFO 3592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-21T20:43:31.270+01:00  INFO 3592 --- [restartedMain] c.n.j.a.a.AuctionServiceApplication      : Started AuctionServiceApplication in 1.95 seconds (process running for 2.655)
+2024-02-21T20:43:31.541+01:00  INFO 3592 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-21T20:43:31.541+01:00  INFO 3592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-21T20:43:31.542+01:00  INFO 3592 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-21T20:43:33.032+01:00 ERROR 3592 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: User Already Exists] with root cause
+
+java.lang.RuntimeException: User Already Exists
+	at com.nordeus.jobfair.auctionservice.auctionservice.domain.service.UserService.register(UserService.java:24) ~[classes/:na]
+	at com.nordeus.jobfair.auctionservice.auctionservice.api.UsersController.register(UsersController.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2024-02-21T20:43:41.618+01:00  INFO 3592 --- [http-nio-8080-exec-6] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection established on sessionId: 15410270-09f8-36e2-55fe-31319056020c with userId: cdcs1708544611628
+2024-02-21T20:43:57.882+01:00  INFO 3592 --- [SpringApplicationShutdownHook] c.n.j.a.a.d.sockets.MyWebSocketHandler   : Connection closed on session: 15410270-09f8-36e2-55fe-31319056020c with status: 1001

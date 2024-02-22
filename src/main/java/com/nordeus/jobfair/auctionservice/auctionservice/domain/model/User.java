@@ -8,4 +8,7 @@ import lombok.Getter;
 public class User {
 
     private final UserId userId;
+    private String username;
+    private String password;
+
 }
